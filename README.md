@@ -33,18 +33,20 @@ The system consists of an embedded ESP32 controller programmed in C++ that manag
 - Arduino IDE (or specify if different)  
 
 Hardware components:
-- Microcontroller (e.g., Arduino)  
-- RTC module (if used)  
-- Buzzer / LEDs / Display  
+- ESP32 Microcontroller  
+- RTC module DS3231 
+- Buzzer
+- GSM SIM800L Module
+- 1kg Loadcell + HX711 amplifiers  
 
 ---
 
 ## Working Principle
 1. User sets medication timing  
 2. System continuously tracks time  
-3. At scheduled time, an alert is triggered  
-4. User acknowledges intake  
-5. Data is logged via the web interface  
+3. At scheduled time, an alert is triggered(SMS)  
+4. User acknowledges intake (Weight verification)  
+6. Data is logged via the web interface  
 
 ---
 
