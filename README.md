@@ -21,7 +21,7 @@ The system consists of an embedded ESP32 controller programmed in C++ that manag
 
 <p align="center">
   <b>Complete Setup</b><br>
-  <img src="images/hardware_2.jpg" width="500">
+  <img src="images/hardware (2).jpg" width="500">
 </p>
 
 <p align="center">
