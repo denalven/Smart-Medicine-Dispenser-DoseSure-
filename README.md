@@ -17,8 +17,17 @@ To develop a reliable embedded system that:
 The system consists of an embedded ESP32 controller programmed in C++ that manages timing, alerts, and hardware interaction. A JavaScript-based web interface is used for logging and monitoring dosage data.
 
 ---
-![Hardware](images/hardware(2).jpg)
-![Circuitry](images/ckt.jpg)
+## Hardware Setup
+
+<p align="center">
+  <b>Complete Setup</b><br>
+  <img src="images/hardware_2.jpg" width="500">
+</p>
+
+<p align="center">
+  <b>Circuit Connections</b><br>
+  <img src="images/ckt.jpg" width="500">
+</p>
 ## Features
 - Configurable medication schedule  
 - Timely alerts and reminders  
@@ -49,9 +58,17 @@ Hardware components:
 6. Data is logged via the web interface  
 
 ---
-## System Input & Output Visuals
-![Dashboard](images/dash.jpeg)
-![Report](images/repo.png)
+<h2>System Input & Output Visuals</h2>
+
+<p align="center">
+  <b>Dashboard Interface</b><br>
+  <img src="images/dash.jpeg" width="500">
+</p>
+
+<p align="center">
+  <b>Generated Report</b><br>
+  <img src="images/repo.png" width="500">
+</p>
 ## Future Scope
 - Mobile app integration  
 - IoT-based remote monitoring  
